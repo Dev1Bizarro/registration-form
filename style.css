@@ -1,3 +1,64 @@
+fieldset{
+    width: 95%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+fieldset legend{
+    font-weight: bold;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 h1{
-    color: aquamarine;
+    color: darkblue;
+}
+
+div {
+   display: flex;
+   justify-content: center;
+}
+
+label{
+    width: 200px;
+}
+input, label, select{
+    font-size: 1.1;
+}
+
+section{
+    background-color: rgb(177, 207, 217);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    width: 250px;
+    border-radius: 5px;
+}
+select{
+    width: 260px;
+}
+button{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    width: 80px;
+    cursor: pointer;
+    background-color: coral;
+}
+button:hover{
+    box-shadow: 3px 4px rgb(146, 146, 124);
 }

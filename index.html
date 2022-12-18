@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,42 @@
     <title>registration form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>registration form</h1>
+    <h1>Registration form</h1>
+    <fieldset>
+        <legend>Preencha os dados</legend>
+
+        <section>
+            <div>
+                <label for="input-nome">Nome:</label>
+                <input type="text" name="" id="input-nome">
+            </div>
+            <div>
+                <label for="input-data-nascimento">Data de nascimento:</label>
+                <input type="date" name="" id="input-data-nascimento">
+            </div>
+            <div>
+                <label for="input-cpf">Cpf:</label>
+                <input type="text" name="" id="input-cpf">
+            </div>
+            <div>
+                <label for="input-municipio">Municipio:</label>
+                <select id="input-municipio">
+                    <option>Selecione</option>
+                    <option value="FLN">Florianópolis</option>
+                    <option value="SP">São Paulo/SP</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="BSB">Brasilia</option>
+                </select>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </section>
+
+    </fieldset>
+
 </body>
+
 </html>
